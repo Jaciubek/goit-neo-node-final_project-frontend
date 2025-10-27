@@ -1,0 +1,34 @@
+.recipeWrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 64px auto;
+  width: 343px;
+}
+
+.recipeWrapper > :nth-child(2) {
+  margin: 32px 0 64px;
+}
+
+@media screen and (min-width: 768px) {
+  .recipeWrapper {
+    /* gap: 100px; */
+    width: 704px;
+    margin-bottom: 100px;
+  }
+
+  .recipeWrapper > :nth-child(2) {
+    margin: 40px 0 100px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .recipeWrapper {
+    width: 1280px;
+    margin-top: 80px;
+    margin-bottom: 120px;
+  }
+
+  .recipeWrapper > :nth-child(2) {
+    margin-bottom: 120px;
+  }
+}

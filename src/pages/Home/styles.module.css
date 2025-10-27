@@ -1,0 +1,20 @@
+.textStyle {
+  color: var(--black-90);
+}
+
+.mainContainer {
+  max-width: 343px;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+  .mainContainer {
+    max-width: 736px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .mainContainer {
+    max-width: 1292px;
+  }
+}
